@@ -769,7 +769,7 @@ h6 {
 }
 
 /*# sourceMappingURL=index.css.map */
-`,n=document.getElementById(o);if(n){const e=n.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`
+`,i=document.getElementById(o);if(i){const n=i.attachShadow({mode:"open"}),e=document.createElement("style");e.textContent=`
     ${a}
     ${p}
     /* Дополнительные стили виджета при необходимости */
@@ -777,4 +777,4 @@ h6 {
       all: initial; /* Опционально: сброс наследуемых стилей */
       font-family: sans-serif;
     }
-  `,e.appendChild(i),document.body.appendChild(n),r.createRoot(e).render(t.jsxDEV(s,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:40},void 0))}
+  `,n.appendChild(e),r.createRoot(n).render(t.jsxDEV(s,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:40},void 0))}
