@@ -242,24 +242,6 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
-@font-face {
-  font-family: "Exo 2";
-  src: url("./public/fonts/Exo2-Regular.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Exo 2";
-  src: url("./public/fonts/Exo2-Medium.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Exo 2";
-  src: url("./public/fonts/Exo2-SemiBold.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 600;
-}
 h1,
 h2,
 h3,
@@ -283,7 +265,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2";
+  /* font-family: "Exo 2", sans-serif; */
 }
 
 .flex {
