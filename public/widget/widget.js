@@ -786,13 +786,9 @@ h6 {
   src: url("${n}/public/widget/fonts/Exo2-SemiBold.ttf") format("truetype");
   font-display: swap;
   font-weight: 600;
-}`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`
-    ${A}
-    ${l}
-    ${p}
+}`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`${p}${A}${l}
     /* Дополнительные стили виджета при необходимости */
     :host {
       all: initial; /* Опционально: сброс наследуемых стилей */
-      font-family: sans-serif;
     }
-  `,e.appendChild(i),t.createRoot(e).render(s.jsxDEV(o,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:40},void 0))}
+  `,e.appendChild(i),t.createRoot(e).render(s.jsxDEV(o,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:23,columnNumber:38},void 0))}
