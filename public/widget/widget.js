@@ -1,4 +1,4 @@
-import{c as r,j as t,A as s}from"./assets/app-B9KrH7XT.js";const o="widget",a=`/**
+import{c as t,j as s,A as o}from"./assets/app-B9KrH7XT.js";const a="widget",n="https://srazy.github.io",p=`/**
  * Swiper 11.2.10
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
@@ -226,7 +226,7 @@ import{c as r,j as t,A as s}from"./assets/app-B9KrH7XT.js";const o="widget",a=`/
   }
 }
 /* Slide styles end */
-`,p=`* {
+`,l=`* {
   box-sizing: border-box;
   scrollbar-width: none;
 }
@@ -769,12 +769,30 @@ h6 {
 }
 
 /*# sourceMappingURL=index.css.map */
-`,i=document.getElementById(o);if(i){const n=i.attachShadow({mode:"open"}),e=document.createElement("style");e.textContent=`
-    ${a}
+`,A=`@font-face {
+  font-family: "Exo 2";
+  src: url("${n}/public/widget/fonts/Exo2-Regular.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("${n}/public/widget/fonts/Exo2-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("${n}/public/widget/fonts/Exo2-SemiBold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+}`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`
     ${p}
+    ${A}
+    ${l}
     /* Дополнительные стили виджета при необходимости */
     :host {
       all: initial; /* Опционально: сброс наследуемых стилей */
       font-family: sans-serif;
     }
-  `,n.appendChild(e),r.createRoot(n).render(t.jsxDEV(s,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:40},void 0))}
+  `,e.appendChild(i),t.createRoot(e).render(s.jsxDEV(o,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:40},void 0))}
