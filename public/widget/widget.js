@@ -787,9 +787,9 @@ h6 {
   font-display: swap;
   font-weight: 600;
 }`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`
-    ${p}
     ${A}
     ${l}
+    ${p}
     /* Дополнительные стили виджета при необходимости */
     :host {
       all: initial; /* Опционально: сброс наследуемых стилей */
