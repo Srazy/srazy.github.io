@@ -769,7 +769,7 @@ h6 {
   src: url("${n}/public/widget/fonts/Exo2-SemiBold.ttf") format("truetype");
   font-display: swap;
   font-weight: 600;
-}`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`${p}${A}${l}
+}`,r=document.getElementById(a);if(r){const e=r.attachShadow({mode:"open"}),i=document.createElement("style");i.textContent=`${A}${p}${l}
     /* Дополнительные стили виджета при необходимости */
     :host {
       all: initial; /* Опционально: сброс наследуемых стилей */
