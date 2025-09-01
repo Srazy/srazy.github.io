@@ -1,4 +1,4 @@
-import{c as r,j as t,A as s}from"./assets/app-zCOcEjnZ.js";const o="widget",a=`/**
+import{c as s,j as o,A as a}from"./assets/app-CaSBNVmI.js";const p="widget",e="https://srazy.github.io",l=`/**
  * Swiper 11.2.10
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
@@ -226,7 +226,7 @@ import{c as r,j as t,A as s}from"./assets/app-zCOcEjnZ.js";const o="widget",a=`/
   }
 }
 /* Slide styles end */
-`,p=`* {
+`,A=`* {
   box-sizing: border-box;
   scrollbar-width: none;
 }
@@ -752,12 +752,21 @@ h6 {
 }
 
 /*# sourceMappingURL=index.css.map */
-`,i=document.getElementById(o);if(i){const n=i.attachShadow({mode:"open"}),e=document.createElement("style");e.textContent=`
-    ${a}
-    ${p}
-    /* Дополнительные стили виджета при необходимости */
-    :host {
-      all: initial; /* Опционально: сброс наследуемых стилей */
-      font-family: sans-serif;
-    }
-  `,n.appendChild(e),r.createRoot(n).render(t.jsxDEV(s,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:25,columnNumber:38},void 0))}
+`,d=`@font-face {
+  font-family: "Exo 2";
+  src: url("${e}/public/widget/fonts/Exo2-Regular.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("${e}/public/widget/fonts/Exo2-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("${e}/public/widget/fonts/Exo2-SemiBold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+}`,t=document.getElementById(p);if(t){const n=document.createElement("iframe");n.style.border="none",n.style.width="100%",n.style.background="none",n.style.height="271px",n.style.overflow="hidden",t.appendChild(n);const i=n.contentDocument||n.contentWindow.document,r=document.createElement("style");r.textContent=`${d}${l}${A}`,i.head.appendChild(r),s.createRoot(i.body).render(o.jsxDEV(a,{},void 0,!1,{fileName:"/Users/srazy/Projects/react-widget/src/widget.tsx",lineNumber:27,columnNumber:46},void 0))}
